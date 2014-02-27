@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+body{
+	width:90%;
+	margin:0 auto;
+	background-color:#FF9;
+	line-height:1.5;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* make images and video elements responsive */
+img,video{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
+
+.track{
+	width:100%;
+	background-color:#F0F2F0;
+	padding:1% 8%;
+	margin-bottom:0.5em;
+	border:#FFF solid;
+}
+h1{
+	padding-top:10px;
+	font-size:1.9em;
+	font-family: 'Russo One', sans-serif;
+	text-align:center;
+}
+h2,h3,h4,h5{
+	font-size:1.1em;
+	font-weight:bold;
+	line-height:1em;
+	color:#03C;
+}
+.track h1{
+	color:#FCB43F;
+	font-size:1.8em;
+	line-height:1;
+	text-align:center;
+	margin-top:-0.1em;
+	font-family: 'Purple Purse', cursive;
+}
+.presentername{
+	color:#039;
+	text-align:right;
+	margin-top:-1.6em;
+	font-size:0.9em;
+}
+p{
+	margin-bottom:1.5em;
+	margin-top:0.2em;
+	font-size:0.9em;
+}
+
+.session{
+	margin-bottom:2em;
+}
+span{
+	color:#000;
+	font-style:italic;
+	font-size:0.8em;
+	margin-left:1%;
+}
+.image{
+	margin-top:0.6em;
+}
